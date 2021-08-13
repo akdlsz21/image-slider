@@ -1,0 +1,39 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	display: flex;
+	background-color: rgba(155, 33, 33, 0.712);
+}
+
+.slide-frame {
+	align-items: center;
+	border: 1px solid red;
+	width: 800px;
+	margin: auto;
+	height: 600px;
+	padding: 10px;
+	display: flex;
+	justify-content: space;
+	background-color: rgb(9, 236, 236);
+}
+
+.slider {
+	border: 1px solid orange;
+}
+
+button {
+	margin: 10px;
+	height: 30px;
+	align-items: center;
+}
+
+img {
+	display: none;
+}
+
+.active {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
